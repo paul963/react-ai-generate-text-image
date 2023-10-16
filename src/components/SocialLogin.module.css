@@ -1,0 +1,20 @@
+.social__btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #e9edf2;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn__item:hover {
+  background: #aab3c1;
+}

@@ -1,0 +1,35 @@
+/* Navbar */
+.topBar {
+  padding: 15px 0;
+}
+
+.topBar__nav {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.topBar_cta {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.topBar_cta a, .topBar_cta button {
+  background: #e9edf2;
+  border-radius: 80px;
+  padding: 14px 32px;
+  transition: 0.3s;
+  color: #0B0B0D;
+  font-weight: 500;
+}
+
+.topBar_cta a:hover, .topBar_cta button:hover {
+  background: #aab3c1;
+}
+
+@media (max-width: 768px) {
+  .topBar__nav, .topBar_cta {
+    display: none;
+  }
+}

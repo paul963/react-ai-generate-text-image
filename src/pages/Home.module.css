@@ -1,0 +1,230 @@
+/* Heor content */
+.topHero {
+  background: url("../assets/images/bg-home-hero.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heroContent {
+  padding: 150px 0 170px;
+}
+
+.heroContent__title span {
+  font-weight: 800 !important;
+  font-size: 80px !important;
+  background: -webkit-linear-gradient(
+    252.74deg,
+    #00faaf -20.67%,
+    #421ae4 93.33%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heroContent__text {
+  width: 50%;
+  margin: 0 auto 15px;
+  padding: 24px 0 32px;
+  font-weight: 600;
+  font-size: 24px !important;
+}
+
+.heroContent__btn {
+  padding: 14px 40px;
+  background: #421ae4;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.16);
+  border-radius: 80px;
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
+.heroContent__btn:hover {
+  background: #3916c3;
+}
+
+.heroContent__list {
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  gap: 65px;
+  align-items: center;
+}
+
+.heroContent__list-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.heroContent__list-item .item__check {
+  width: 30px;
+  height: 30px;
+  background: rgba(4, 136, 72, 0.16);
+  border-radius: 50%;
+}
+
+.heroContent__list-item .item__title {
+  font-size: 16px;
+  color: #6f7783 !important;
+}
+
+@media (max-width: 768px) {
+  .heroContent {
+    padding: 80px 0 120px;
+  }
+
+  .heroContent__title span {
+    font-size: 60px !important;
+  }
+
+  .heroContent__text {
+    width: 80%;
+  }
+
+  .heroContent__list {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Hero steps */
+.heroSteps__title h2 {
+  color: #aab3c1 !important;
+}
+
+.heroSteps__list {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.heroSteps__list-item {
+  background: #f2f2f5;
+  border-radius: 40px 0px;
+  padding: 30px 90px 30px 30px;
+  flex: 1;
+}
+
+.heroSteps__list-item .item__title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 15px;
+}
+
+.heroSteps__list-item .item__title-number {
+  background: #421ae4;
+  border-radius: 50px;
+  padding: 13px;
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 24px !important;
+}
+
+.heroSteps__list-item .item__title-text {
+  font-weight: 700 !important;
+  font-size: 30px !important;
+  color: #0b0b0d;
+}
+
+@media (max-width: 768px) {
+  .heroSteps__list {
+    flex-direction: column;
+  }
+}
+
+/* Ebook */
+.ebook {
+  position: relative;
+  margin-top: 400px;
+}
+
+.ebook__shape {
+  background: #0b0b0d;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.ebook__container {
+  position: relative;
+  z-index: 2;
+  padding: 50px 0 200px;
+  background: #421ae4;
+  border-radius: 60px 0px;
+  background-image: url("../assets/images/bg-pulse.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.ebook__preview img {
+  max-width: 100%;
+  margin-top: -200px;
+  padding: 5px;
+  box-shadow: 0px 12.9276px 23.7005px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  background-image: linear-gradient(-90deg, #00faaf, #421ae4);
+}
+
+.ebook__title h2 {
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.ebook__content {
+  padding-top: 15px;
+}
+
+.ebook__content-title {
+  color: #ffffff;
+}
+
+.ebook__content-price {
+  width: max-content;
+  margin-top: 20px;
+  padding: 5px 9px;
+  background: #ffc839;
+  border-radius: 14.4828px;
+  color: #421ae4;
+}
+
+.ebook__content-list {
+  margin-bottom: 30px !important;
+}
+
+.ebook__content-list .list__item {
+  margin-top: 8px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.ebook__content-btn {
+  padding: 10px 32px 14px;
+  background: #e9edf2;
+  border-radius: 80px;
+  color: #0b0b0d !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.ebook__content-btn:hover {
+  background: #aab3c1;
+}
+
+@media (max-width: 768px) {
+  .ebook {
+    margin-top: 250px;
+  }
+
+  .ebook__container .row {
+    gap: 30px;
+  }
+
+  .ebook__title h2 {
+    margin-top: 15px;
+  }
+}

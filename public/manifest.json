@@ -1,0 +1,12 @@
+{
+  "short_name": "IdeaBook",
+  "name": "IdeaBook",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone"
+}

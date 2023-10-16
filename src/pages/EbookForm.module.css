@@ -1,0 +1,151 @@
+.form__section {
+  padding: 0px 0 80px;
+  background: url(../assets/images/bg-form.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form__section-container {
+  padding-top: 50px !important;
+}
+
+.form__container {
+  padding: 55px 80px !important;
+  background: #ffffff;
+  box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.25);
+  border-radius: 40px 0px;
+}
+
+.form__header {
+  display: flex;
+  gap: 24px;
+}
+
+.header__content-text {
+  margin-bottom: 8px;
+}
+
+.form__content {
+  margin-top: 40px;
+}
+
+.form__input {
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form__input-label {
+  color: #0b0b0d;
+  font-weight: 600;
+}
+
+.form__input-field {
+  padding: 14px 11px 14px 24px;
+  background: #f2f2f5;
+  border-radius: 80px;
+  border: none;
+  outline: none;
+}
+
+.form__btn {
+  width: 100%;
+  padding: 10px 14px 14px;
+  background: #421ae4;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.16);
+  border-radius: 80px;
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
+.form__btn:hover {
+  background: #3916c3;
+}
+
+
+/* Counter generate PDF */
+.counter__div {
+  display: flex;
+  justify-content: center;
+}
+
+.counter__div {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.counter {
+  padding: 80px 140px;
+  background: #ffffff;
+  box-shadow: 0px 24px 44px rgba(0, 0, 0, 0.25);
+  border-radius: 40px 0px;
+}
+
+.counter__spin {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 5px solid #421ae4;
+  border-radius: 50%;
+}
+
+.counter__spin span {
+  font-size: 45px !important;
+  font-weight: 300;
+  color: #421ae4 !important;
+}
+
+.counter__spin svg {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  fill: transparent;
+  stroke: #421ae4;
+  stroke-width: 10px;
+  overflow: visible;
+  stroke-dasharray: 610;
+  stroke-dashoffset: 0;
+  transform-origin: center;
+  animation: clock 3.75s linear;
+}
+
+.counter__content {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.counter__content .content-text p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.counter__content .content-title h3 {
+  color: #421ae4;
+}
+
+@media (max-width: 768px) {
+  .form__section {
+    background-size: cover;
+  }
+
+  .form__container {
+    padding: 55px 30px !important;
+  }
+}
+
+@keyframes clock {
+  0% {
+    stroke-dashoffset: 610;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}

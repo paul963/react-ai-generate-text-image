@@ -1,0 +1,144 @@
+.signup__section {
+  padding: 60px 0;
+}
+
+.signup__form {
+  max-width: 70%;
+  margin: auto;
+}
+
+.form__logo {
+  margin-bottom: 65px;
+}
+
+.form__content h4 {
+  font-weight: 700;
+}
+
+.form__content {
+  margin-bottom: 32px;
+}
+
+.form__form {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.form__input {
+  padding: 11px 24px;
+  background: #f2f2f5;
+  border-radius: 80px;
+  border: 1px solid #421ae400;
+}
+
+.form__input:focus {
+  border-color: #421ae4;
+}
+
+.form__btn {
+  padding: 14px 40px;
+  background: #421ae4;
+  box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.16);
+  border-radius: 80px;
+  color: #ffffff !important;
+  transition: 0.3s;
+}
+
+.form__btn:hover {
+  background: #3916c3;
+}
+
+.form__footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #e9edf2;
+}
+
+.footer__btn {
+  width: 100%;
+  margin-bottom: 32px;
+  padding: 10px 32px 14px;
+  background: #e9edf2;
+  border-radius: 80px;
+  color: #0b0b0d !important;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.form__footer a {
+  color: #4e89f5 !important;
+}
+
+.footer__btn:hover {
+  background: #aab3c1;
+}
+
+.signup__content {
+  padding: 80px 120px 160px;
+  background: url("../assets/images/bg-pulse.png"),
+    linear-gradient(252.74deg, #00faaf -20.67%, #421ae4 93.33%);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  border-radius: 60px 0px;
+}
+
+.content__text h1 {
+  color: #ffffff;
+}
+
+.content__text p {
+  margin: 40px 0;
+  color: #ffffff !important;
+  font-weight: 600 !important;
+  font-size: 24px !important;
+}
+
+.content__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__list-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.item__check {
+  width: 30px;
+  height: 30px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+.item__title {
+  color: #ffffff !important;
+}
+
+@media (max-width: 1200px) {
+  .signup__content {
+    padding: 80px 30px 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .signup__form {
+    max-width: 100%;
+  }
+
+  .signup__content {
+    padding: 30px;
+  }
+
+  .form__logo,
+  .form__footer {
+    margin-bottom: 40px;
+  }
+
+  .content__list {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
