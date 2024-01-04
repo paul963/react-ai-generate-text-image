@@ -23,7 +23,7 @@ User data and generators are saved in a Firebase database.
 
 ### Getting Started
 1. Clone repository
-2. Install dependencies `npm install` `npm i react-router-dom` `npm i bootstrap` `npm i firebase` `npm i react-countup` `npm i openai`
+2. Install dependencies `npm i`
 3. Firebase database is public. No additional configuration required
 4. Run the application `npm start`.
 5. Account test: user: generate.test@gmail.com | password: test.1234
